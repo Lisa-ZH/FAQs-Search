@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Web site FAQs"/>
+    <title>FAQs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="files/style/index.css">
+    
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div class="container">
+      <div class="header">
+        <img src="files/images/FAQ-image.png" class="faq-photo" />
+            <div class="search-container">
+                <h2>How can we help you?</h2>
+                <form onSubmit={handleSearch}>
+                <input id="searchInput" type="text" placeholder="Search..." name="search" />
+                <button type="submit" class="form-btn"><i class="fa fa-search"></i></button>
+                </form>
+                <h4>You can also browse the topics below to find what you are looking for.</h4>
+            </div>
+            <h1>Most Frequently Asked Questions in FAQs</h1>
+      </div>
+      <div class="faqs-container">
+        <ul>
+          <li>
+            <h3 class="title">What is the return policy?</h3>
+            <div class="faqs-desc">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </li>
+          <li>
+            <h3 class="title">What are the shipping options?</h3>
+            <div class="faqs-desc">
+              <p>Donec auctor dapibus elit, eu interdum magna rhoncus eu.</p>
+            </div>
+          </li>
+          <li>
+            <h3 class="title">What do I do if I never received my order?</h3>
+            <div class="faqs-desc">
+              <p>Maecenas sed vestibulum ante, sit amet hendrerit purus.</p>
+            </div>
+          </li>
+          <li>
+            <h3 class="title">When will I receive my order?</h3>
+            <div class="faqs-desc">
+              <p>Aenean sit amet pulvinar neque. Mauris vel consectetur mi. Curabitur non dignissim enim.</p>
+            </div>
+          </li>
+          <li>
+            <h3 class="title">How do I make sure I order the right size?</h3>
+            <div class="faqs-desc">
+              <p>Mauris semper augue at nunc placerat, ut porttitor risus tincidunt.</p>
+            </div>
+          </li>
+          <li>
+            <h3 class="title">Where are you located?</h3>
+            <div class="faqs-desc">
+              <p>Etiam ultricies varius sem eget faucibus.</p>
+            </div>
+          </li>
+          <li>
+            <h3 class="title">Can I make changes to an order I already placed?</h3>
+            <div class="faqs-desc">
+              <p>Maecenas volutpat finibus gravida.</p>
+            </div>
+          </li>
+          <li>
+            <h3 class="title">How do I get a new password?</h3>
+            <div class="faqs-desc">
+              <p>Cras luctus odio et justo venenatis, eu molestie neque faucibus.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="files/js/index.js"></script>
+  </body>
+</html>
